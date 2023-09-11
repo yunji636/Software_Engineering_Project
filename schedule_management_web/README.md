@@ -6,49 +6,19 @@
 
 본 프로젝트는 웹 기반의 일정 관리 프로그램을 만듭니다.
 
-# 레포지토리 복제
+# 프로젝트 구조
 
-로컬에서 사용하기 위해 레포지토리를 복제해야합니다.
+우리의 프로젝트는 SvelteKit를 사용합니다.
 
-[`git`](https://git-scm.com/download/win)을 사용하므로 컴퓨터에 없다면 설치해주세요.
+SvelteKit는 파일 시스템 기반 라우팅을 사용합니다.
 
-# git 초기설정
+/src/routes 폴더가 웹사이트의 "/" 주소가 됩니다.
 
-설치가 끝났다면 Git Bash를 실행해줍니다.
+"/" 에 접속하면 routes/+page.svelte 가 보여집니다.
 
-그리고 git 초기 설정을 해줍니다.
+"/main" 에 접속하면  routes/main/+page.svelete 가 보여집니다.
 
-```bash
-git config --global user.name "github 아이디"
-git config --global user.email "github 이메일"
-```
-# 레포지토리 복제 및 협업(git desktop 이용)
-
-Git Desktop을 이용해 github를 더욱 편리하게 이용할 수 있습니다.
-
-[`여기`](https://eunyoe.tistory.com/m/210)를 클릭하여 확인해보시면 됩니다.
-
-본인이 개발한 부분을 Pull Request(병합요청)을 보내면 제가 확인 후 main 브랜치에 병합시킵니다.
-
-만약 충돌나는 부분이 있다면 해결을 해주어야하는데, 이 부분은 저 사이트에 잘 정리되어있으니 참고하시기 바랍니다.
-
-
-# 레포지토리 복제(git bash 사용)
-
-위에서 Git Desktop을 이용하였다면 이 문단은 필요가 없습니다.
-
-레포지토리가 위치할 폴더로 이동합니다(혹은 생성합니다)
-
-해당 폴더에서 우클릭을 하면 Git Bash Here를 확인할 수 있습니다.
-
-클릭해줍니다.
-
-그리고 다음 커맨드를 입력해 레포지토리를 복제해옵니다.
-
-```bash
-git clone https://github.com/binn328/Software_Engineering_Project/
-```
-
+저도 아직 덜 배웠으니까 이번 학기동안 공부한걸 여기에서 만들어보아요
 
 # 종속성 설치
 
