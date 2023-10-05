@@ -70,6 +70,22 @@ npm install
 
 미리 지정된 종속성들이 설치될 것입니다.
 
+# 서비스 실행하기
+
+`/schedule_management_web` 디렉터리로 이동한 후, 
+
+다음 커맨드를 입력하면 서비스를 실행할 수 있습니다.
+
+```shell
+npm run dev
+npm run pocketbase
+```
+터미널을 2개 열어서 각각 실행해주면 됩니다.
+
+`npm run dev` 는 `sveltekit` 를 실행합니다.
+
+`npm run pocketbase` 는 로그인 기능을 구현하는 `pocketbase`를 실행합니다.
+
 # 개발 편의 기능
 
 ## 실시간 미리보기 기능
