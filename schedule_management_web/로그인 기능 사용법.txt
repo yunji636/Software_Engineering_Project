@@ -1,0 +1,3 @@
+1. 터미널 DB 경로에서 pocketbase serve를 입력해 서버를 킨다
+
+2. 터미널 schedule_management_web 경로에서 npm run dev를 통해 페이지 확인
