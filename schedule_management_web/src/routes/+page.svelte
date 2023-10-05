@@ -1,3 +1,6 @@
-<a href="/">Home</a>
-<a href="/about">About</a>
-<a href="/login">login</a>
+<script>
+    export let data;
+</script>
+
+
+<h1>웰컴! {data.profile?.name || ''}</h1>
