@@ -7,19 +7,20 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      padding: 150px;
+      /*padding: 100px;*/
       background-color:#6a24f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
     }
     .sign-up{
-       
-            margin:0 auto;
             width:400px;
             height: 510px;
             padding:10px 40px 40px 40px;
             box-sizing: border-box;
             background-color: white;
             border-radius: 20px;
-            /*box-shadow: 5px 5px 5px;*/
         
     }
 
