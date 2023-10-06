@@ -2,24 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>일정관리 로그인</title>
+    <title>Document</title>
     <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
         body{
-            padding:0;
-            margin:150px 150px 200px 150px;
-            border:none;
             font-family: 'Roboto', sans-serif;
-            background-image:linear-gradient(to bottom left, red, blue)
+            background-image: linear-gradient(to bottom left, red, blue);
         }
         .login-wrapper {
-            margin:0 auto;
+            /*margin:250px auto 200px auto;*/
             width:400px;
             height: 370px;
             padding:10px 40px 40px 40px;
             box-sizing: border-box;
             background-color: white;
             border-radius: 20px;
-            /*box-shadow: 5px 5px 5px;*/
         }
         #login-form > input{
             width: 100%;

@@ -108,7 +108,7 @@
         class="btn btn-submit pull-left">가입</button>
         <button type="button" 
         class="btn btn-cancel pull-right" 
-        onclick="location.href='home.html'">취소</button>
+        onclick="location.href='main'">취소</button>
       </form>
       
     </div>
