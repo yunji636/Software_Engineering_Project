@@ -60,7 +60,7 @@
             <input type="submit" value="Login" onclick="location.href='home.html'">
         </form>
             <a href="main"><input type="submit" value="아이디/비밀번호찾기"></a>
-            <a href="main"><input type="submit" class="signup" value="회원가입"></a>
+            <a href="/signup"><input type="submit" class="signup" value="회원가입"></a>
         
     </div>
     
