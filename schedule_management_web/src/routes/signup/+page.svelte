@@ -16,8 +16,8 @@
     }
     .sign-up{
             width:400px;
-            height: 510px;
-            padding:10px 40px 40px 40px;
+            height: 500px;
+            padding:20px 40px 40px 40px;
             box-sizing: border-box;
             background-color: white;
             border-radius: 20px;

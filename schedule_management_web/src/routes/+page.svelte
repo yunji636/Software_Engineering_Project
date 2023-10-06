@@ -17,10 +17,14 @@
             font-family: 'Roboto', sans-serif;
             background-image: linear-gradient(to bottom left, red, blue);
         }
+        h1{
+            font-size: 50px;
+            text-align: center;
+        }
         .login-wrapper {
             /*margin:250px auto 200px auto;*/
             width:400px;
-            height: 370px;
+            height: 440px;
             padding:10px 40px 40px 40px;
             box-sizing: border-box;
             background-color: white;
