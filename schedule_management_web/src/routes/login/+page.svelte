@@ -1,5 +1,12 @@
+<script>
+    export let form;
+</script>
+
 <article>
     <h1>로그인</h1>
+    {#if form?.error}
+        <p class="error">{form.error}</p>
+    {/if}
     <form method="POST">
         <input type="email" name="email"
         placeholder="이메일" required>
